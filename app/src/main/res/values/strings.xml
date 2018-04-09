@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Tic Tac Toe</string>
+    <string name="playerOne">X</string>
+    <string name="playerTwo">O</string>
+    <string name="scoreDisplay">%d</string>
+    <string name="player1">Player 1</string>
+    <string name="player2">Player 2</string>
+    <string name="hint">0</string>
+    <string name="banner">CHOSE YOUR FAVORITE BOARD BELOW</string>
+    <string name="reset">Restart Game</string>
+    <string name="buttons3">3X3</string>
+    <string name="buttons5">5X5</string>
+</resources>
