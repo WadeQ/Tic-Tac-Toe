@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8" ?>
 <RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
@@ -24,22 +24,23 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:orientation="horizontal"
+            android:baselineAligned="false"
             android:padding="10dp"
             android:weightSum="1">
 
             <LinearLayout
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:layout_weight=".5"
+                android:layout_weight="1"
                 android:orientation="vertical">
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:textSize="30sp"
+                    android:textSize="42sp"
                     android:textColor="#311b92"
                     android:textStyle="bold"
-                    android:text="@string/player1"
+                    android:text="@string/singlePlayer"
                     android:textAlignment="center" />
 
                 <TextView
@@ -49,44 +50,12 @@
                     android:textStyle="bold"
                     android:textColorHint="#311b92"
                     android:layout_marginTop="16dp"
-                    android:textSize="24sp"
+                    android:textSize="32sp"
                     android:hint="@string/hint"
                     android:textAlignment="center" />
 
             </LinearLayout>
 
-            <View
-                android:layout_width="1dp"
-                android:layout_height="match_parent"
-                android:background="#4A90E2" />
-
-            <LinearLayout
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight=".5"
-                android:orientation="vertical">
-
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:textSize="30sp"
-                    android:textColor="#311b92"
-                    android:textStyle="bold"
-                    android:text="@string/player2"
-                    android:textAlignment="center" />
-
-                <TextView
-                    android:id="@+id/displayTwo"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="16dp"
-                    android:textStyle="bold"
-                    android:textColorHint="#311b92"
-                    android:textSize="24sp"
-                    android:hint="@string/hint"
-                    android:textAlignment="center" />
-
-            </LinearLayout>
 
         </LinearLayout>
 
@@ -128,7 +97,7 @@
                     android:orientation="vertical">
 
                     <Button
-                        android:id="@+id/button_00"
+                        android:id="@+id/btn1"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:gravity="center"
@@ -161,7 +130,7 @@
                     android:orientation="vertical">
 
                     <Button
-                        android:id="@+id/button_01"
+                        android:id="@+id/btn2"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:gravity="center"
@@ -192,7 +161,7 @@
                     android:orientation="vertical">
 
                     <Button
-                        android:id="@+id/button_02"
+                        android:id="@+id/btn3"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:gravity="center"
@@ -234,7 +203,7 @@
                     android:orientation="vertical">
 
                     <Button
-                        android:id="@+id/button_10"
+                        android:id="@+id/btn4"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:gravity="center"
@@ -267,7 +236,7 @@
                     android:orientation="vertical">
 
                     <Button
-                        android:id="@+id/button_11"
+                        android:id="@+id/btn5"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:gravity="center"
@@ -298,7 +267,7 @@
                     android:orientation="vertical">
 
                     <Button
-                        android:id="@+id/button_12"
+                        android:id="@+id/btn6"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:gravity="center"
@@ -340,7 +309,7 @@
                     android:orientation="vertical">
 
                     <Button
-                        android:id="@+id/button_20"
+                        android:id="@+id/btn7"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:gravity="center"
@@ -373,7 +342,7 @@
                     android:orientation="vertical">
 
                     <Button
-                        android:id="@+id/button_21"
+                        android:id="@+id/btn8"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:gravity="center"
@@ -404,7 +373,7 @@
                     android:orientation="vertical">
 
                     <Button
-                        android:id="@+id/button_22"
+                        android:id="@+id/btn9"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:gravity="center"

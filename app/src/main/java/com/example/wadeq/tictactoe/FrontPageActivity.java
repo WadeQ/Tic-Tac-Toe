@@ -11,6 +11,9 @@ public class FrontPageActivity extends AppCompatActivity {
     Button btnByThree;
     Button btnByFive;
 
+    Button singlePlayerThree;
+    Button singlePlayerFive;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -33,5 +36,23 @@ public class FrontPageActivity extends AppCompatActivity {
                 startActivity(fiveByFiveBoard);
             }
         });
+        singlePlayerThree = findViewById(R.id.singlePlayerThree);
+        singlePlayerThree.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent threeByThreeBoard = new Intent(FrontPageActivity.this, SinglePlayerThreeBoardActivity.class);
+                startActivity(threeByThreeBoard);
+            }
+        });
+        singlePlayerFive = findViewById(R.id.singlePlayerFive);
+        singlePlayerFive.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent fiveByFiveBoard = new Intent(FrontPageActivity.this, SinglePlayerFiveBoardActivty.class);
+                startActivity(fiveByFiveBoard);
+            }
+        });
+
+
     }
 }
