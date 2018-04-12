@@ -8,11 +8,7 @@
     <string name="singlePlayer">Player Score</string>
     <string name="hint">0</string>
     <string name="banner">CHOSE YOUR FAVORITE BOARD BELOW</string>
-    <string name="bannerSingle">SINGLE PLAYER OPTIONS</string>
-    <string name="bannerMulti">MULTI-PLAYER OPTIONS</string>
     <string name="reset">Restart Game</string>
-    <string name="buttons3">MULTI PLAYER 3X3</string>
-    <string name="buttons5">MULTI PLAYER 5X5</string>
-    <string name="singleThree">SINGLE PLAYER 3X3</string>
-    <string name="singleFive">SINGLE PLAYER 5X5</string>
+    <string name="buttons3">3X3</string>
+    <string name="buttons5">5X5</string>
 </resources>

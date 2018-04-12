@@ -184,7 +184,7 @@ public class FiveBoardActivity extends AppCompatActivity implements View.OnClick
     private void updateScore(){
 
         displayOne.setText(getString(R.string.scoreDisplay, + playerOneScore));
-        displayTwo.setText(getString(R.string.scoreDisplay, + playerTwoScore));
+        displayTwo.setText(   getString(R.string.scoreDisplay, + playerTwoScore));
 
     }
     private void resetBoard(){

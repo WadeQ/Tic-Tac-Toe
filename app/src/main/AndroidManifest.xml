@@ -18,8 +18,6 @@
         </activity>
         <activity android:name=".FiveBoardActivity" />
         <activity android:name=".ThreeBoardActivity" />
-        <activity android:name=".SinglePlayerThreeBoardActivity" />
-        <activity android:name=".SinglePlayerFiveBoardActivty" />
     </application>
 
 </manifest>
