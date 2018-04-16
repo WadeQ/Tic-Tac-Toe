@@ -152,10 +152,6 @@ public class FiveBoardActivity extends AppCompatActivity implements View.OnClick
         if (board[1][1].equals(board[2][2]) && board[1][1].equals(board[3][3]) && board[1][1].equals(board[4][4]) && !board[1][1].equals("")) {
             return true;
         }
-        if (board[1][3].equals(board[2][2]) && board[1][3].equals(board[3][1]) && board[1][3].equals(board[4][0]) && !board[1][3].equals("")) {
-            return true;
-        }
-
         return false;
 
     }
